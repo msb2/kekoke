@@ -136,30 +136,58 @@ header ul a {
 	padding: 10px;
 }
 #artistDetail {
-	background-color: #c9bc9c;
+	background-color: #f9f3e3;
 }
 .guestContents {
-	background: rgba(255,255,255,0.7);
+	background: #FFF;
 	padding:10px;
 	box-sizing: border-box;
 	margin-top: 40px;
+	border:2px solid #c9bc9c;
+	box-shadow:3px 3px 8px -4px #ccc;
+}
+.guestImage {
+	width: 40%;
+	float:left;
+	margin-right: 10px;
+}
+.guestTextWrap {
+	overflow: hidden;
+	width:auto;
+	margin-top: 16px;
+}
+.guestContents img {
+	width: 100%;
 }
 .careerList {
 	font-size: 12px;
-	margin-top: 10px;
+	margin-top: 16px;
 	padding-left:10px;
 	box-sizing: border-box;
 }
 .guestName{
 	font-weight: bold;
+	margin-top:16px;
+	border-bottom: 1px solid #ccc;
+}
+
+.linkWrap a{
+	font-size: 13px;
+	text-decoration: none;
+	color: #c9bc9c;
+	padding-left: 16px;
+	background:url(../img/icn_site.png) no-repeat;
+	background-size: 13px;
 }
 .artistDetailList li {
 	width:450px;
 	float: left;
 	margin-top: 24px;
-	background: rgba(255,255,255,0.7);
+	background: #FFF;
 	padding:10px;
 	box-sizing: border-box;
+	border:2px solid #c9bc9c;
+	box-shadow:3px 3px 8px -4px #ccc;
 }
 .artistDetailList li:nth-child(even){
 	margin-left:20px;
@@ -183,6 +211,7 @@ header ul a {
 .textWrap {
 	overflow: hidden;
 	width:auto;
+	margin-top: 16px;
 }
 @media screen and (max-width: 1200px) {
 	.wrapper {
@@ -219,7 +248,7 @@ header ul a {
 	box-sizing: border-box;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 	.artistDetailList li {
 		width:100%;
 	}
@@ -230,6 +259,15 @@ header ul a {
 	}
 	.imgWrap {
 		float: none;
+		margin: auto;
+	}
+	.guestImage {
+		width: 100%;
+		float: none;
+		margin: auto;
+	}
+	.guestContents img {
+		width: 100%;
 		margin: auto;
 	}
 }
@@ -245,11 +283,13 @@ header ul a {
 
 .artistName {
 	font-weight: bold;
+	border-bottom: 1px solid #ccc;
 }
 .commentText {
-	margin-top:10px;
+	margin-top:16px;
 	font-size:12px;
 }
+/*googleMap*/
 .gmap {
 	margin-top: 20px;
 	position: relative;
