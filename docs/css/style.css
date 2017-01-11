@@ -346,6 +346,6 @@ footer {
 .fb_iframe_widget iframe[style]{
     width: 100% !important;
 }
-._2p3a {
-	margin: 0 auto;
+.pageplugin {
+	margin: 0 auto !important;
 }
