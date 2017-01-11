@@ -172,12 +172,12 @@ header ul a {
 }
 
 .linkWrap a{
-	font-size: 13px;
+	font-size: 15px;
 	text-decoration: none;
 	color: #c9bc9c;
-	padding-left: 16px;
+	padding-left: 18px;
 	background:url(../img/icn_site.png) no-repeat;
-	background-size: 13px;
+	background-size: 15px;
 }
 .artistDetailList li {
 	width:450px;
@@ -270,10 +270,20 @@ header ul a {
 		width: 100%;
 		margin: auto;
 	}
+	#viewer img {
+		width: 800px;
+	}
+	.contentsBox th {
+		width: 85px;
+		font-weight: normal;
+	}
 }
 @media screen and (max-width: 400px) {
 	header ul a {
 		font-size:12px;
+	}
+	#viewer img {
+		width: 600px;
 	}
 }
 
@@ -319,4 +329,10 @@ header ul a {
 	top: 0;
 	left: 0;
 	position: absolute;
+}
+/*facebook page_plugin*/
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget iframe[style]{
+    width: 100% !important;
 }
