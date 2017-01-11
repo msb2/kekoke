@@ -249,7 +249,7 @@ header ul a {
 	}
 }
 @media screen and (min-width: 532px) {
-	.pageplugin {
+	#pageplugin {
 	margin: 24px auto 0 !important;
 	width: 500px;
 	}
@@ -352,4 +352,7 @@ footer {
 .fb_iframe_widget span,
 .fb_iframe_widget iframe[style]{
     width: 100% !important;
+}
+#pageplugin {
+	margin-top: 24px;
 }
