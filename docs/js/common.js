@@ -1,3 +1,4 @@
+//facebookレスポンシブ対応
 $(function () {
     var windowWidth = $(window).width();
     var htmlStr = $('#pageplugin').html();
@@ -9,14 +10,11 @@ $(function () {
             timer = setTimeout(function() {
                 $('#pageplugin').html(htmlStr);
                 window.FB.XFBML.parse();
-　　　　　　　　　　　//window.FB.XFBML.parse()で再レンダリングします。
                 var windowWidth = $(window).width();
             }, 500);
         }
     });
 });
-
-
 
 var KEKOKE = KEKOKE || {};
 KEKOKE.common = {};

@@ -299,6 +299,16 @@ header ul a {
 	margin-top:16px;
 	font-size:12px;
 }
+#access {
+	background-color: #f7f6f6;
+}
+footer {
+	height: 30px;
+	line-height:30px;
+	text-align:center;
+	background-color: #aaa;
+	color: #FFF;
+}
 /*googleMap*/
 .gmap {
 	margin-top: 20px;
@@ -335,4 +345,7 @@ header ul a {
 .fb_iframe_widget span,
 .fb_iframe_widget iframe[style]{
     width: 100% !important;
+}
+._2p3a {
+	margin: 0 auto;
 }
